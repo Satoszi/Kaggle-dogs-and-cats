@@ -1,13 +1,21 @@
-# Kaggle-dogs-and-cats (No transfer learning!)
+# Kaggle-dogs-and-cats (No transfer learning)
 
 Dogs vs Cats classification for kaggle competition. (95.5% accuracy on validation set)
 
-## Training
+Model was trained with simple convolution model. (no transfer learning, ensemble, and state of the art architectures was used)
 
-Model was trained on cleaned "kaggle cats vs dogs" dataset with simple convolution model.
+## Training and dataset
+
+Model was trained "kaggle cats vs dogs" dataset
 
 ![](images/train_cats.PNG)
 ![](images/train_dogs.PNG)
+
+Datset had about 90 wrong examples so it had to be cleaned of it.
+
+Abnormal examples of dogs:
+
+![](images/abnormal_dogs_examples.PNG)
 
 ## Results
 
@@ -19,7 +27,7 @@ Model was trained on cleaned "kaggle cats vs dogs" dataset with simple convoluti
 ![](images/test_examples.PNG)
 
 90% Wrong predicted examples (test set):
-![](images/wrong_predicted_test_examples.PNG.PNG)
+![](images/wrong_predicted_test_examples.PNG)
 
 Most wrong predicted examples is a little tricky. For example an upside down cat is very rare in dataset. Also the background of dog's images is often green (garden etc.), this may be the reason why some cats was recognized as dogs. Other examples are just difficult (The white dog on a red background has cat-like features)
 
