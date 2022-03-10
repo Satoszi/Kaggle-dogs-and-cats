@@ -6,12 +6,12 @@ Model was trained with simple convolution model. (no transfer learning, ensemble
 
 ## Training and dataset
 
-Model was trained "kaggle cats vs dogs" dataset
+Model was trained on "kaggle cats vs dogs" dataset consisting of 25000 examples.
 
 ![](images/train_cats.PNG)
 ![](images/train_dogs.PNG)
 
-Datset had about 90 wrong examples so it had to be cleaned of it.
+Dataset had about 90 wrong examples so it had to be cleaned of it.
 
 Abnormal examples of dogs:
 
@@ -26,7 +26,7 @@ Abnormal examples of dogs:
 90% accuracy on test set (100 random cats and dogs images from google graphics):
 ![](images/test_examples.PNG)
 
-90% Wrong predicted examples (test set):
+Wrong predicted examples (test set):
 ![](images/wrong_predicted_test_examples.PNG)
 
 Most wrong predicted examples is a little tricky. For example an upside down cat is very rare in dataset. Also the background of dog's images is often green (garden etc.), this may be the reason why some cats was recognized as dogs. Other examples are just difficult (The white dog on a red background has cat-like features)
