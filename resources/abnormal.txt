@@ -65,7 +65,6 @@ cat.8456.jpg
 cat.7564.jpg
 cat.9171.jpg
 cat.4688.jpg
-cat.5351.jpg
 cat.5418.jpg
 dog.1043.jpg
 dog.1773.jpg
