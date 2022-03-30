@@ -2,7 +2,7 @@
 
 Dogs vs Cats classification for kaggle competition (95.5% accuracy on validation set 90% on test set).
 
-Model was trained with simple convolution model (no transfer learning, ensemble, and state of the art architectures was used).
+Model was trained with simple convolution model - no transfer learning (With tl it is easy to reach 99% val on this dataset), ensemble, and state of the art architectures was used.
 
 ## Training and dataset
 
